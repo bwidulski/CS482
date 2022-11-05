@@ -1,3 +1,4 @@
+```
 from bs4 import BeautifulSoup as bs
 import requests
 
@@ -71,7 +72,7 @@ for product in products:
                     #increase the count of usable images
                     imageCount += 1
 
-            # increase total number
+            # increase total number 
             totalImageCount += 1
 
         # if we've reached the max images on the page
@@ -79,3 +80,4 @@ for product in products:
             pageCount += 1
 
 
+```
